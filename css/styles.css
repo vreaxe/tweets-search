@@ -1,0 +1,68 @@
+body {
+    font-family: Arial;
+    background-color: #c0deed;
+}
+
+.container {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.search-form {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.search-form input {
+    float: left;
+    box-sizing: border-box;
+    width: 80%;
+    outline: none;
+    border: none;
+    padding: 12px;
+}
+
+.search-form input:focus {
+    background-color: #F0F0F0;
+}
+
+.search-form button {
+    float: left;
+    box-sizing: border-box;
+    width: 20%;
+    border: none;
+    padding: 12px;
+    outline: none;
+}
+
+.search-form button:active {
+    background-color: #C1C1C1;
+}
+
+.search-form button:after {
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin: 0 auto;
+    content: ' ';
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAnFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+TINBkAAAAM3RSTlMAAQIDBwgJDg8RExcdICMzPUJERUdMUVJcX2F5e36FiZigoqWrtcPF2eDi5Obp6+/z+fuRCq6wAAAAiklEQVQYGVXBRwKCMABFwU8QFbtgwV6wV/Dd/26GZKMzspIbUC5r8swB79mWs4VVHEbDN8+arC6MVWm8Wcpac5Q3pDSSLqTyImhJKujLC6Ej6UQmL4ampBkPI2fFXVb9Q25kjWGkSgKPrJ8egamc5IPzgomcaH4urpuuyWGqX8EeBvoV7FjoT9AzXxZnEVySl7A0AAAAAElFTkSuQmCC');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.name_user {
+    font-weight: bold;
+}
+
+.errors {
+    color: red;
+    text-align: center;
+}
